@@ -1,0 +1,33 @@
+header {
+    border-bottom: 1px solid #E0E0E0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #607D8B;
+    color: #E0E0E0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+footer {
+    border-top: 1px solid #E0E0E0;
+}
+
+@keyframes rotate {
+    from {
+        opacity: 0;
+        top: -10px;
+    }
+    to {
+        opacity: 1;
+        top: 0px;
+    }
+}
+
+.rotate {
+    position: relative;
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
