@@ -484,8 +484,9 @@ input[type="radio"] + label:before {
   .image.fit {
     display: block;
     margin: 0 0 2rem 0;
-    width: 100%;
-    border-radius: 50%; }
+    width: 100%; }
+    .image.fit.circle {
+      border-radius: 50%; }
     .image.fit img {
       width: 100%; }
   .image.main {
@@ -884,8 +885,8 @@ button {
     #header > :first-child:before {
       display: none; }
   #header .logo {
-    width: 5.5rem;
-    height: 5.5rem;
+    width: 6.5rem;
+    height: 6.5rem;
     line-height: 5.5rem;
     border: solid 1px #ffffff;
     border-radius: 100%; }
